@@ -32,24 +32,25 @@ class StudentViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-    //Validation for grade to not pass 100
+  //Validation for grade to not pass 100
   void increaseGrade() {
-     if (_student.grade < 100) {
-        _student = _student.copyWith(grade: _student.grade + 1);
-        notifyListeners();
-      }
-    }
-
-    //Validation for grade to not be below 0
-  void decreaseGrade() {
-     if (_student.grade > 0) {
-        _student = _student.copyWith(grade: _student.grade - 1);
-        notifyListeners();
-      }
+    if (_student.grade < 100) {
+      _student = _student.copyWith(grade: _student.grade + 5);
+      notifyListeners();
     }
   }
 
-  void increaseGrade() {}
+  //Validation for grade to not be below 0
+  void decreaseGrade() {
+    if (_student.grade > 0) {
+      _student = _student.copyWith(grade: _student.grade - 5);
+      notifyListeners();
+    }
+  }
+}
 
-  void decreaseGrade() {}
+void increaseGrade() {
+  
+}
 
+void decreaseGrade() {}
