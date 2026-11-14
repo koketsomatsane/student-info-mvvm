@@ -13,7 +13,7 @@
 
 ## Screenshot
 
-<img width="1365" height="768" alt="image_b959ac71" src="https://github.com/user-attachments/assets/28442b0d-b855-4ed9-957f-4c695a89985e" />
+<img width="1547" height="973" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/bcdfb065-8f38-41fc-8865-c6a3b7cdab14" />
 
 
 ---
