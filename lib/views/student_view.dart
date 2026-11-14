@@ -112,7 +112,7 @@ class StudentView extends StatelessWidget {
           context.read<StudentViewModel>().increaseGrade();
         },
         style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-        child: const Text("Increase Grade (+1)"),
+        child: const Text("Increase Grade (+5)"),
       ),
     );
   }
@@ -126,7 +126,7 @@ class StudentView extends StatelessWidget {
           context.read<StudentViewModel>().decreaseGrade();
         },
         style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
-        child: const Text("Decrease Grade (-1)"),
+        child: const Text("Decrease Grade (-5)"),
       ),
     );
   }
